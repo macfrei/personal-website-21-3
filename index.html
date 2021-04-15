@@ -13,22 +13,32 @@
     />
   </head>
   <body>
-    <header>
+    <header class="page-header">
       <h1>Lene's personal website</h1>
       <nav>
-        <a href="#about">About</a>
+        <a class="button" href="#about">About</a>
         <a href="#skill">Skill</a>
       </nav>
     </header>
-    <main>
-      <figure>
-        <img src="images/test.png" alt="" width="300" height="300" />
-        <figcaption>
-          My name is Lene, I started coding in 2019. This is almost two years
-          ago now! At the moment I focus a lot on accessibility and testing.
-        </figcaption>
-      </figure>
-      <section>
+    <main class="page-main">
+      <section id="about">
+        <figure>
+          <img class="image-fluid" src="images/test.png" alt="" />
+          <figcaption>
+            My name is Lene, I started coding in 2019. This is almost two years
+            ago now! At the moment I focus a lot on accessibility and testing.
+            Since I have visited the neuefische bootcamp, I learned to love
+            creating new things with code.
+          </figcaption>
+        </figure>
+        <h2>Interests</h2>
+        <ul>
+          <li>Climbing</li>
+          <li>Yoga</li>
+          <li>Code</li>
+        </ul>
+      </section>
+      <section id="skill">
         <h2>Skills</h2>
         <ul>
           <li>HTML</li>
@@ -36,6 +46,16 @@
           <li>JavaScript</li>
           <li>React</li>
         </ul>
+      </section>
+      <section>
+        <a href="https://codepen.io/macfrei" target="_blank">
+          <img class="image-fluid" src="images/codepen.png" alt="" />
+          Click here to visit me on codepen!
+        </a>
+        <a href="https://github.com/macfrei" target="_blank">
+          <img class="image-fluid" src="images/github.png" alt="" />
+          Click here to visit me on github!
+        </a>
       </section>
     </main>
   </body>

@@ -2,8 +2,41 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: honeydew;
+  --black: #333;
+  --secondary: papayawhip;
+}
+
 body {
+  margin: 0;
+  background-color: var(--primary);
+  color: var(--black);
   font-family: 'Playfair Display', serif;
   font-size: 112.5%;
   line-height: 1.4;
+}
+
+.page-header {
+  background-color: var(--secondary);
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.page-main {
+  display: grid;
+  grid-gap: 40px;
+  place-items: center;
+}
+
+.button {
+  background-color: var(--black);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.image-fluid {
+  width: 100%;
+  height: auto;
 }
