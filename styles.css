@@ -6,6 +6,7 @@
   --primary: honeydew;
   --black: #333;
   --secondary: papayawhip;
+  --shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
 }
 
 body {
@@ -17,16 +18,22 @@ body {
   line-height: 1.4;
 }
 
+li {
+  background-color: var(--secondary);
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+}
+
 .page-header {
   background-color: var(--secondary);
-  margin-bottom: 40px;
   padding: 20px;
 }
 
 .page-main {
   display: grid;
-  grid-gap: 40px;
-  place-items: center;
+  grid-gap: 30px;
+  padding: 20px;
 }
 
 .button {
@@ -39,4 +46,31 @@ body {
 .image-fluid {
   width: 100%;
   height: auto;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+.social {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.social__card {
+  display: grid;
+  place-items: center;
+  grid-gap: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  box-shadow: var(--shadow);
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
 }
