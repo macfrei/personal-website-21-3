@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: honeydew;
+  --black: #333;
+  --secondary: papayawhip;
+  --shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.55);
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary);
+  color: var(--black);
+  font-family: 'Playfair Display', serif;
+  font-size: 112.5%;
+  line-height: 1.4;
+}
+
+li {
+  background-color: var(--secondary);
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+}
