@@ -1,0 +1,23 @@
+.button {
+  background-color: var(--black);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.image-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}

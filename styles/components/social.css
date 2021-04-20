@@ -1,0 +1,14 @@
+.social {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.social__card {
+  display: grid;
+  place-items: center;
+  grid-gap: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  box-shadow: var(--shadow);
+}
